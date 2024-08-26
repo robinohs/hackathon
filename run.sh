@@ -1,4 +1,6 @@
 rm -rf ~/carbond-hackathon
+rm -rf /var/carbond
+rm -rf /etc/carbond
 sudo apt-get install pipx
 pipx install poetry
 poetry config virtualenvs.in-project true
