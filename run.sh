@@ -7,5 +7,5 @@ sudo chown peach:peach /var/carbond
 sudo chown peach:peach /etc/carbond
 mkdir ~/carbond-hackathon
 mv ./measurements ~/carbond-hackathon
-cd ~/carbond-hackathon
+cd ~/carbond-hackathon/measurements
 poetry install
