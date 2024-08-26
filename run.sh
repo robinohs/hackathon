@@ -1,5 +1,6 @@
 apt-get install pipx
 pipx install poetry
+poetry config virtualenvs.in-project true
 sudo cp ./carbond /usr/bin/carbond
 sudo mkdir /var/carbond
 sudo mkdir /etc/carbond
